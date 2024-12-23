@@ -57,7 +57,7 @@ grip: Nick Conroy<br /><br />
 <p>MAXI SINGLE VERSION: Original song + 11 remixes + instrumental/acapella stems. <br />
 (55m 33s runtime)<br /><br />
 <b>$5</b>
-<div id='product-component-1734923117905'></div>
+<div id='product-component-1734923537196'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -86,7 +86,7 @@ grip: Nick Conroy<br /><br />
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '6830396342339',
-        node: document.getElementById('product-component-1734923117905'),
+        node: document.getElementById('product-component-1734923537196'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -104,19 +104,22 @@ grip: Nick Conroy<br /><br />
         "color": "#000000"
       },
       "button": {
+        "font-family": "Arial, sans-serif",
         "font-size": "18px",
         "padding-top": "17px",
         "padding-bottom": "17px",
+        "color": "#006bff",
         ":hover": {
-          "background-color": "#000000"
+          "color": "#006bff",
+          "background-color": "#e6e4e4"
         },
-        "background-color": "#000000",
+        "background-color": "#fffdfd",
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#e6e4e4"
         },
         "border-radius": "0px",
-        "padding-left": "12px",
-        "padding-right": "12px"
+        "padding-left": "8px",
+        "padding-right": "8px"
       },
       "quantityInput": {
         "font-size": "18px",
@@ -142,7 +145,7 @@ grip: Nick Conroy<br /><br />
       "price": false
     },
     "text": {
-      "button": "click to buy"
+      "button": "Click here to purchase."
     }
   },
   "productSet": {
@@ -170,19 +173,22 @@ grip: Nick Conroy<br /><br />
         }
       },
       "button": {
+        "font-family": "Arial, sans-serif",
         "font-size": "18px",
         "padding-top": "17px",
         "padding-bottom": "17px",
+        "color": "#006bff",
         ":hover": {
-          "background-color": "#000000"
+          "color": "#006bff",
+          "background-color": "#e6e4e4"
         },
-        "background-color": "#000000",
+        "background-color": "#fffdfd",
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#e6e4e4"
         },
         "border-radius": "0px",
-        "padding-left": "12px",
-        "padding-right": "12px"
+        "padding-left": "8px",
+        "padding-right": "8px"
       },
       "quantityInput": {
         "font-size": "18px",
@@ -228,38 +234,130 @@ grip: Nick Conroy<br /><br />
   "cart": {
     "styles": {
       "button": {
+        "font-family": "Arial, sans-serif",
         "font-size": "18px",
         "padding-top": "17px",
         "padding-bottom": "17px",
+        "color": "#006bff",
         ":hover": {
-          "background-color": "#000000"
+          "color": "#006bff",
+          "background-color": "#e6e4e4"
         },
-        "background-color": "#000000",
+        "background-color": "#fffdfd",
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#e6e4e4"
         },
         "border-radius": "0px"
+      },
+      "title": {
+        "color": "#000000"
+      },
+      "header": {
+        "color": "#000000"
+      },
+      "lineItems": {
+        "color": "#000000"
+      },
+      "subtotalText": {
+        "color": "#000000"
+      },
+      "subtotal": {
+        "color": "#000000"
+      },
+      "notice": {
+        "color": "#000000"
+      },
+      "currency": {
+        "color": "#000000"
+      },
+      "close": {
+        "color": "#000000",
+        ":hover": {
+          "color": "#000000"
+        }
+      },
+      "empty": {
+        "color": "#000000"
+      },
+      "noteDescription": {
+        "color": "#000000"
+      },
+      "discountText": {
+        "color": "#000000"
+      },
+      "discountIcon": {
+        "fill": "#000000"
+      },
+      "discountAmount": {
+        "color": "#000000"
       }
     },
     "text": {
-      "total": "Subtotal",
-      "button": "Checkout"
+      "title": "cart",
+      "total": "total",
+      "notice": "",
+      "button": "checkout"
     },
     "popup": false
   },
   "toggle": {
     "styles": {
       "toggle": {
-        "background-color": "#000000",
+        "font-family": "Arial, sans-serif",
+        "background-color": "#fffdfd",
         ":hover": {
-          "background-color": "#000000"
+          "background-color": "#e6e4e4"
         },
         ":focus": {
-          "background-color": "#000000"
+          "background-color": "#e6e4e4"
         }
       },
       "count": {
-        "font-size": "18px"
+        "font-size": "18px",
+        "color": "#006bff",
+        ":hover": {
+          "color": "#006bff"
+        }
+      },
+      "iconPath": {
+        "fill": "#006bff"
+      }
+    }
+  },
+  "lineItem": {
+    "styles": {
+      "variantTitle": {
+        "color": "#000000"
+      },
+      "title": {
+        "color": "#000000"
+      },
+      "price": {
+        "color": "#000000"
+      },
+      "fullPrice": {
+        "color": "#000000"
+      },
+      "discount": {
+        "color": "#000000"
+      },
+      "discountIcon": {
+        "fill": "#000000"
+      },
+      "quantity": {
+        "color": "#000000"
+      },
+      "quantityIncrement": {
+        "color": "#000000",
+        "border-color": "#000000"
+      },
+      "quantityDecrement": {
+        "color": "#000000",
+        "border-color": "#000000"
+      },
+      "quantityInput": {
+        "color": "#000000",
+        "border-color": "#000000"
       }
     }
   }
